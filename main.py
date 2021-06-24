@@ -6,7 +6,7 @@ sys.stderr = open("io/error.txt", "w")
 
 # from here, each call to `input()` will return the next line from `input.txt`
 # each print statement will write to `output.txt`
-# errors are written to `output.txt`
+# errors are written to `error.txt`
 
 if __name__ == "__main__":
     pass
